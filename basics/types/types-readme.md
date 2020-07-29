@@ -44,9 +44,7 @@ Benzer sekilde soyle bir ornegimiz olsun;
     console.log('y radius: ' + y.radius);
 ```
 
-Bu durumda ise reference kopyalandigi icin sonuc, `20. 20` olarak alinacaktir.
-
-Java daki mantik ile ayni sekilde dusunebilirsin.
+Bu durumda ise reference kopyalandigi icin sonuc; `20 20` olacaktir. Cunku object lerin reference lari birbirine verilmistir. Birindeki degisiklik digerine yansiyacaktir.
 
 O zaman su kodu deneyelim;
 
